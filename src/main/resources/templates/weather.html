@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Weather</title>
+</head>
+<body>
+<h1>Weather for <span th:text="${city}"></span></h1>
+<div th:if="${weather}">
+    <p>Temperature: <span th:text="${weather.main.temp}"></span> °C</p>
+    <p>Weather: <span th:text="${weather.weather[0].description}"></span></p>
+</div>
+<div th:if="${weather == null}">
+    <p>No weather data available.</p>
+</div>
+</body>
+</html>

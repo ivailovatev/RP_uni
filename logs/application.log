@@ -1,0 +1,19 @@
+2024-10-27T17:20:38.763+02:00  INFO 15908 --- [mvcApiWeather] [main] r.m.MvcApiWeatherApplication             : Starting MvcApiWeatherApplication using Java 23 with PID 15908 (E:\programming\rpMvcApi\mvcApiWeather\target\classes started by Ivo in E:\programming\rpMvcApi\mvcApiWeather)
+2024-10-27T17:20:38.767+02:00  INFO 15908 --- [mvcApiWeather] [main] r.m.MvcApiWeatherApplication             : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T17:20:40.654+02:00  INFO 15908 --- [mvcApiWeather] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-10-27T17:20:40.671+02:00  INFO 15908 --- [mvcApiWeather] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-27T17:20:40.671+02:00  INFO 15908 --- [mvcApiWeather] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-27T17:20:40.736+02:00  INFO 15908 --- [mvcApiWeather] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-27T17:20:40.737+02:00  INFO 15908 --- [mvcApiWeather] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1864 ms
+2024-10-27T17:20:41.633+02:00  INFO 15908 --- [mvcApiWeather] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-10-27T17:20:41.738+02:00  INFO 15908 --- [mvcApiWeather] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-10-27T17:20:41.755+02:00  INFO 15908 --- [mvcApiWeather] [main] r.m.MvcApiWeatherApplication             : Started MvcApiWeatherApplication in 3.72 seconds (process running for 4.31)
+2024-10-27T17:20:48.475+02:00  INFO 15908 --- [mvcApiWeather] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-27T17:20:48.476+02:00  INFO 15908 --- [mvcApiWeather] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-27T17:20:48.477+02:00  INFO 15908 --- [mvcApiWeather] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-27T17:20:48.552+02:00  INFO 15908 --- [mvcApiWeather] [http-nio-8081-exec-1] rp.mvcApiWeather.WeatherController       : Fetching weather data for city: Sofia
+2024-10-27T17:20:48.555+02:00  INFO 15908 --- [mvcApiWeather] [http-nio-8081-exec-1] rp.mvcApiWeather.WeatherController       : URL for weather request: http://api.openweathermap.org/data/2.5/weather?q=Sofia&appid=1292ea2dfa114831c7c3f8682ee1ee4e&units=metric
+2024-10-27T17:21:23.307+02:00  INFO 15908 --- [mvcApiWeather] [http-nio-8081-exec-2] rp.mvcApiWeather.WeatherController       : Fetching weather data for city: Plovdiv
+2024-10-27T17:21:23.308+02:00  INFO 15908 --- [mvcApiWeather] [http-nio-8081-exec-2] rp.mvcApiWeather.WeatherController       : URL for weather request: http://api.openweathermap.org/data/2.5/weather?q=Plovdiv&appid=1292ea2dfa114831c7c3f8682ee1ee4e&units=metric
+2024-10-27T17:21:34.613+02:00  INFO 15908 --- [mvcApiWeather] [http-nio-8081-exec-4] rp.mvcApiWeather.WeatherController       : Fetching weather data for city: Burgas
+2024-10-27T17:21:34.613+02:00  INFO 15908 --- [mvcApiWeather] [http-nio-8081-exec-4] rp.mvcApiWeather.WeatherController       : URL for weather request: http://api.openweathermap.org/data/2.5/weather?q=Burgas&appid=1292ea2dfa114831c7c3f8682ee1ee4e&units=metric
