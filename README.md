@@ -15,3 +15,6 @@
  1) - Server: The application runs on a local server, configured on port 8081.
  2) - Architecture: It uses an MVC (Model-View-Controller) architecture, separating application logic, data processing, and information presentation.
  3) - Logging: Logging is utilized for debugging, enabling developers to monitor execution issues.
+
+- Test:
+In the file: weatherInDiffCities.JPG in the project!
