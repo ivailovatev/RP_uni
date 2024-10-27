@@ -1,4 +1,5 @@
 - Project Summary: MVC API Integration with OpenWeather
+  - Use my key from: https://home.openweathermap.org/api_keys
 - Project: MVC API Integration with OpenWeather
 - Programming Language: Java
 - Technologies: Spring Boot, Thymeleaf, OpenWeather API
